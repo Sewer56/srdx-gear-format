@@ -1,0 +1,30 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: Riders DX 2.0 Gear File
+//   Authors: Sewer56
+//   Version: 1.0.0
+//   Purpose: Parse Sonic Riders DX 2.0 Gear Files
+//   History: 5th December 2022: Created File
+//------------------------------------------------
+
+struct Header 
+{
+    char Magic[4]; // CSTM 'Custom'
+    int pTextures; // Texture Pointer  
+    // Data here.
+};
+
+struct TextureHeader 
+{
+    int count;
+    if (count != 65535) 
+    {
+        int texturePtrs[count];
+    }
+};
+
+BigEndian();
+Header header;
+FSeek(header.pTextures);
+TextureHeader header;
