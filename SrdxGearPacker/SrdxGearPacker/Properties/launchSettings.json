@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Extract": {
+      "commandName": "Project",
+      "commandLineArgs": "extract --source D:\\Games\\ISOs\\SRDX20\\files\\EXG01 --savepath C:\\Users\\sewer\\Desktop\\Temp\\GearExtractor\\outTest"
+    },
+    "Pack": {
+      "commandName": "Project",
+      "commandLineArgs": "pack --source C:\\Users\\sewer\\Desktop\\Temp\\GearExtractor\\outTest --savepath C:\\Users\\sewer\\Desktop\\Temp\\GearExtractor\\outTest\\EXG01"
+    }
+  }
+}
