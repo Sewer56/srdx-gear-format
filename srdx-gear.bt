@@ -5,7 +5,7 @@
 //   Authors: Sewer56
 //   Version: 1.0.0
 //   Purpose: Parse Sonic Riders DX 2.0 Gear Files
-//   History: 5th December 2022: Created File
+//   History: 5th September 2022: Created File
 //------------------------------------------------
 
 struct Header 
