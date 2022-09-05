@@ -1,6 +1,6 @@
 # Riders DX 2.0 Extreme Gear Packer/Unpacker
 
-An unpacker/packer for the Sonic Riders DX 2.0 Extreme Gear format.  
+An unpacker/packer for the Sonic Riders DX 2.0 Extreme Gear archives.  
 
 ## Specification
 
